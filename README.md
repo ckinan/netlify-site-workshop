@@ -17,7 +17,7 @@ Simple weather app using API https://weatherstack.com/
 netlify dev
 ```
 
-## Environment variables
+## Environment variables
 
 ```
 API_KEY=<YOUR API KEY FROM https://weatherstack.com/>
