@@ -11,9 +11,7 @@
         const lat = position.coords.latitude;
         const lon = position.coords.longitude;
 
-        const weatherResp = await fetch(
-          `http://localhost:8888/api/weather?lat=${lat}&lon=${lon}`
-        );
+        const weatherResp = await fetch(`/api/weather?lat=${lat}&lon=${lon}`);
         const weather = await weatherResp.json();
 
         var location = document.querySelector("#location");
