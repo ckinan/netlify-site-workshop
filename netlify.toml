@@ -7,3 +7,6 @@
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
+
+[template.environment]
+  API_KEY = "change me for your api key"

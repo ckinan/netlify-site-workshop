@@ -15,7 +15,7 @@ netlify dev
 
 ## Deploy on netlify
 
-https://app.netlify.com/start/deploy?repository=https://github.com/ckinan/ckn-netlify-weather
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ckinan/ckn-netlify-weather/)
 
 ## Environment variables
 
