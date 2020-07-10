@@ -1,4 +1,7 @@
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
   <body>
     <h1>Weather</h1>
     <div><strong>Location: </strong><span id="location"></span></div>
@@ -15,7 +18,7 @@
         const weather = await weatherResp.json();
 
         var location = document.querySelector("#location");
-        location.textContent = `${weather.location.name} - ${weather.location.region} - ${weather.location.country}`;
+        location.textContent = `${weather.location.region} - ${weather.location.country}`;
 
         var temperature = document.querySelector("#temperature");
         temperature.textContent = `${weather.current.temperature} C`;
