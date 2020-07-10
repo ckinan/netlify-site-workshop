@@ -8,8 +8,9 @@ Simple weather app using API https://weatherstack.com/
 
 ## Pre-requisites
 
+- Account on Netlify: https://www.netlify.com/
 - Netlify CLI: https://docs.netlify.com/cli/get-started/
-- API Key from https://weatherstack.com/
+- API Key from: https://weatherstack.com/
 
 ## Run locally
 
