@@ -9,4 +9,4 @@
   status = 200
 
 [template.environment]
-  API_KEY = "change me for your api key"
+  API_KEY = "API Key from https://weatherstack.com/"
